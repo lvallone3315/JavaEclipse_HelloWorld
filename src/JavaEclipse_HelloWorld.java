@@ -4,8 +4,12 @@ public class JavaEclipse_HelloWorld {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("Hello World in Java on Eclipse IDE!");
-		System.out.println("  2nd print!");
+		System.out.println(echo("Hello World in Java on Eclipse IDE!"));
+		System.out.println(echo("  2nd print!"));
+	}
+	
+	public static String echo(String message) {
+		return(message);
 	}
 
 }

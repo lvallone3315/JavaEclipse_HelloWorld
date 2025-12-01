@@ -10,6 +10,7 @@ public class JavaEclipse_HelloWorld {
 		System.out.println(echo("  2nd print!"));
 	}
 	
+	// adding a method for junit testing
 	public static String echo(String message) {
 		return(message);
 	}

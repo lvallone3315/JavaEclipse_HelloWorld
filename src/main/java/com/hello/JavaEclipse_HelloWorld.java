@@ -1,5 +1,7 @@
 //   Initial Java program to trial CI/CD pipeline
 
+package com.hello;
+
 public class JavaEclipse_HelloWorld {
 
 	public static void main(String[] args) {
